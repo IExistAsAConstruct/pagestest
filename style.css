@@ -5,3 +5,26 @@ body {
 h1 {
     text-align: center;
 }
+
+.exDiv {
+    border: 5px outset red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.coolButton {
+    border: none;
+    background-color: lightgreen;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.coolButton:hover {
+    background-color: green;
+    color: white;
+}
